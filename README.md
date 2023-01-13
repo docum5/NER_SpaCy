@@ -23,6 +23,18 @@ I asked to build Name Entity Recognition with custom entities in this project. T
 ## Goal
 The problem to be solved by this capstone project is how to built a model that can correctly predict custom entities in the Indonesian language and businesses' needs from unstructured OCR-recognized text.
 
+**Goal: Correctly detect the entities(nama lain, jabatan pemohon, organisasi, tanggal_acara, waktu_acara, nomorsurat_terkait).** 
+
+**Model: Receive input in the form of text, and classify whether there are the entities that we need.**
+
+**Input: Data Surat Aduan Masyarakat, etc.**
+
+## Dataset
+
+Real Data          |  Input 
+:-------------------------:|:-------------------------:
+![](https://github.com/docum5/NER_SpaCy/blob/main/Screenshot%202023-01-13%20at%2012.57.26.png?raw=true)   | ![](https://github.com/docum5/NER_SpaCy/blob/main/Screenshot%202023-01-13%20at%2013.02.46.png?raw=true) 
+
 ## Project Main Steps:
 
 - Get the dataset
@@ -31,6 +43,20 @@ The problem to be solved by this capstone project is how to built a model that c
 - Modeling a text dataset
 - Saving and loading a trained model
 
+## Model_and_architecture
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/docum5/NER_SpaCy/0f49f26820a7bfe7a19cba754047175b031d7bf9/spacypipe.svg" width=2000 />
+</p>
+
+
+
+## Overview
+
+
+Demo Model          | Demo Model  | Demo Model 
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/docum5/NER_SpaCy/blob/main/Screenshot%202023-01-10%20at%2015.40.26.png?raw=true)   | ![](https://github.com/docum5/NER_SpaCy/blob/main/Screenshot%202023-01-10%20at%2015.38.21.png?raw=true) | ![](https://github.com/docum5/NER_SpaCy/blob/main/Screenshot%202023-01-10%20at%2015.40.49.png?raw=true)
 
 ## Software and Libraries
 This project uses the following software and Python libraries:
